@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-from homeassistant.core import HomeAssistant, ServiceCall
-from homeassistant.helpers.typing import ConfigType
-
-import appdaemon.plugins.hass.hassapi as hass
 import spiceapi
 from spiceapi import card_insert
 import argparse
