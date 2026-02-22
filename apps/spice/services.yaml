@@ -1,0 +1,11 @@
+P1CardIn:
+  name: Player1 Card In
+  description: puts in card to player1
+
+P1CardIn:
+  name: Player2 Card In
+  description: puts in card to player2
+
+P1CardIn:
+  name: Multiplayer Card In
+  description: puts both cards in
