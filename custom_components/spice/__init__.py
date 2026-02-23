@@ -14,7 +14,7 @@ def connect_spice(host, port, password):
 def p1Card():
 
     #  get config from default.ini
-    parser = argparse.ArgumentParser(description='spicehue')
+    parser = argparse.ArgumentParser(description='spice')
     parser.add_argument("--config", type=str, default='default.ini')
     args = parser.parse_args()
     
@@ -35,12 +35,12 @@ def p1Card():
     except Exception:
         print("Sconnection failed")
     
-    card_insert(con, 1, player1)
+    card_insert(con, 0, player1)
 
 def p2Card():
 
     #  get config from default.ini
-    parser = argparse.ArgumentParser(description='spicehue')
+    parser = argparse.ArgumentParser(description='spice')
     parser.add_argument("--config", type=str, default='default.ini')
     args = parser.parse_args()
     
@@ -61,7 +61,7 @@ def p2Card():
     except Exception:
         print("Sconnection failed")
     
-    card_insert(con, 2, player2)
+    card_insert(con, 1, player2)
 
 ###########
 

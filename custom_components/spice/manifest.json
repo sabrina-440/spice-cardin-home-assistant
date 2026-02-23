@@ -3,6 +3,6 @@
   "name": "Spice Card In",
   "version": "1.0.0",
   "documentation": "",
-  "requirements": ["appdaemon"]
+  "requirements": ["appdaemon"],
   "codeowners": []
 }
