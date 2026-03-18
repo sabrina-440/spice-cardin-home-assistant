@@ -17,3 +17,7 @@ on Unix (Linux/MacOS) you can simply run the shell scripts
 on Windows you can run `python custom_componenets/spice/card_in_single.py --config custom_componenets/spice/default.ini` for single or `python custom_componenets/spice/card_in_both.py --config custom_componenets/spice/default.ini`
 
 Feel free to automate/trigger this however you like
+
+## Credits
+
+all credits go to the spice team for creating the spice API
